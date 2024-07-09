@@ -10,7 +10,7 @@ const Home = () => {
   console.log(allFood)
 
 let getData = async()=>{
-  let res = await fetch(`https://api.edamam.com/search?q=${searchValue}&app_id=ac394d89&app_key=ca938532964f371b2c2443c01c36038f`);
+  let res = await fetch(`https://api.edamam.com/search?q=${searchValue}&app_id=ac394d89&app_key=90939fddb73ff4fa6f131f64d4ba9f68`);
   let data = await res.json();
   console.log(data);
 
