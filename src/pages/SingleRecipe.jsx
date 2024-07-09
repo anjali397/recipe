@@ -72,4 +72,4 @@ const SingleRecipe = () => {
   )
 }
 
-export default SingleRecipe
+export default SingleRecipe;
