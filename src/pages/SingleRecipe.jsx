@@ -51,7 +51,7 @@ const SingleRecipe = () => {
       </div>
       <div className='row md-6 d-flex justify-content-center'>
         <div className='col md-6'>
-        <h3>Ingredients 10</h3>
+        <h3>Ingredients</h3>
         <ul className='ulone'>
          {location.state.recipe.ingredients.map((ele,index)=>{
             return <li>{ele.text}</li>})}
@@ -59,6 +59,7 @@ const SingleRecipe = () => {
         </div>
             <div className='col md-6'>
               <h3> Health Labels</h3>
+              <h4>Health</h4>
               <ul className='ultwo'>
                 {location.state.recipe.healthLabels.map((ele,index)=>{
                   return <li>{ele}</li> })}
